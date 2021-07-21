@@ -8,22 +8,28 @@ import ApprovalCard from "./ApprovalCard";
 export default function App() {
   return <div className="ui container comments">
    <div>
-    <ApprovalCard/>
-    <BlogDetails author="Jack"
+    <ApprovalCard>
+      <BlogDetails author="Jack"
           date={"13pm"}
           text={"Zoom"}
           avatar={faker.image.avatar()}
-    />
+      />
+    </ApprovalCard>
+
     </div>
-    <BlogDetails author={"Nick"}
+   <ApprovalCard>
+     <BlogDetails author={"Nick"}
           date={"12pm"}
           text={"Hello there!"}
           avatar={faker.image.avatar()}
-    />
-    <BlogDetails author={"Jay"}
+     />
+    </ApprovalCard>
+    <ApprovalCard>
+      <BlogDetails author={"Jay"}
           date={"13pm"}
           text={"Yo!"}
           avatar={faker.image.avatar()}
-    />
+      />
+     </ApprovalCard>
   </div>
 }
