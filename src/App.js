@@ -10,8 +10,8 @@ export default function App() {
    <div>
     <ApprovalCard>
       <BlogDetails author="Jack"
-          date={"13pm"}
-          text={"Zoom"}
+          date="13pm"
+          text="Zoom"
           avatar={faker.image.avatar()}
       />
     </ApprovalCard>
@@ -19,15 +19,15 @@ export default function App() {
     </div>
    <ApprovalCard>
      <BlogDetails author={"Nick"}
-          date={"12pm"}
-          text={"Hello there!"}
+          date="12pm"
+          text="Hello there!"
           avatar={faker.image.avatar()}
      />
     </ApprovalCard>
     <ApprovalCard>
-      <BlogDetails author={"Jay"}
-          date={"13pm"}
-          text={"Yo!"}
+      <BlogDetails author="Jay"
+          date="13pm"
+          text="Yo!"
           avatar={faker.image.avatar()}
       />
      </ApprovalCard>
